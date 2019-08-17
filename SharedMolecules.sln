@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedMolecules.EFCore.Context", "SharedMolecules.Context\SharedMolecules.EFCore.Context.csproj", "{F7F1AC80-DCF0-4A95-AAD5-1ED925B7AE19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedMolecules.UnitTest.InMemory", "SharedMolecules.Test.InMemory\SharedMolecules.UnitTest.InMemory.csproj", "{3B5D1EE1-84C0-4464-AB94-FA9472F567D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedMolecules.Entities", "SharedMolecules.Entities\SharedMolecules.Entities.csproj", "{DB487C58-C82A-4D27-8EE0-2F8060CF29E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedMolecules.Dto", "SharedMolecules.Dto\SharedMolecules.Dto.csproj", "{C2BC60BF-7DBA-4A19-9B4F-FA5C682D6C5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedMolecules.Core", "SharedMolecules.Core\SharedMolecules.Core.csproj", "{4D230530-6AD6-43CC-9D50-069A09B085B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedMolecules.UI", "SharedMolecules.UI\SharedMolecules.UI.csproj", "{DDB204EB-964F-435B-A28F-6B1C185898D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7F1AC80-DCF0-4A95-AAD5-1ED925B7AE19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7F1AC80-DCF0-4A95-AAD5-1ED925B7AE19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7F1AC80-DCF0-4A95-AAD5-1ED925B7AE19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7F1AC80-DCF0-4A95-AAD5-1ED925B7AE19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B5D1EE1-84C0-4464-AB94-FA9472F567D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B5D1EE1-84C0-4464-AB94-FA9472F567D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B5D1EE1-84C0-4464-AB94-FA9472F567D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B5D1EE1-84C0-4464-AB94-FA9472F567D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB487C58-C82A-4D27-8EE0-2F8060CF29E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB487C58-C82A-4D27-8EE0-2F8060CF29E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB487C58-C82A-4D27-8EE0-2F8060CF29E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB487C58-C82A-4D27-8EE0-2F8060CF29E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2BC60BF-7DBA-4A19-9B4F-FA5C682D6C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2BC60BF-7DBA-4A19-9B4F-FA5C682D6C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2BC60BF-7DBA-4A19-9B4F-FA5C682D6C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2BC60BF-7DBA-4A19-9B4F-FA5C682D6C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D230530-6AD6-43CC-9D50-069A09B085B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D230530-6AD6-43CC-9D50-069A09B085B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D230530-6AD6-43CC-9D50-069A09B085B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D230530-6AD6-43CC-9D50-069A09B085B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDB204EB-964F-435B-A28F-6B1C185898D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDB204EB-964F-435B-A28F-6B1C185898D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDB204EB-964F-435B-A28F-6B1C185898D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDB204EB-964F-435B-A28F-6B1C185898D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5866F70-3AD8-4A16-9638-024E2D19407E}
+	EndGlobalSection
+EndGlobal
